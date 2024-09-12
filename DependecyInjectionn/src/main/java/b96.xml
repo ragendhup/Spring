@@ -4,7 +4,14 @@
     xsi:schemaLocation="
 http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 <bean id="car" class="com.tnsif.di.Car">
-<constructor-arg  >	</constructor-arg>
+<constructor-arg  value="Honda">	</constructor-arg>
+<constructor-arg  value="2021">	</constructor-arg>
+<property name="name" value="volks wagen"></property>
+<property name="model"  value="2021"></property>
 </bean>
+<!--<bean class="com.tnsif.di.Car"> 
+<property name="name" value="volks wagen"></property>
+<property name="model"  value="2021"></property>
+</bean>-->
 
 </beans>
